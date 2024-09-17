@@ -34,6 +34,9 @@ const Home = () => {
       Voluptatem quod perferendis doloremque nihil, neque explicabo recusandae earum repudiandae cupiditate maxime harum. Quod, facere asperiores iure quis excepturi harum unde laboriosam impedit earum voluptatum itaque deleniti iste consectetur fugit?
       Sit labore fugiat facilis consequatur. Explicabo porro quos, velit saepe qui rem soluta aliquam est repellat blanditiis recusandae? Veritatis iste rem recusandae at quam iusto impedit et expedita delectus explicabo?
       Numquam itaque minus quam inventore quaerat repellendus perspiciatis nemo facilis eos ipsa ducimus sapiente, culpa quia mollitia ab assumenda voluptates nisi distinctio odit minima voluptatibus delectus illum? Numquam, vel consequuntur.</p>
+      <p>
+        lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, corrupti!
+      </p>
     </div>
   );
 };
