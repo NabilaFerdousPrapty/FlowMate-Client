@@ -1,0 +1,24 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "developer",
+    "main",
+    "prapty",
+    "sabbir",
+    "shipon"
+  ],
+  "parent": {
+    "developer": "main",
+    "main": null,
+    "prapty": "main",
+    "sabbir": "main",
+    "shipon": "main"
+  },
+  "order": [
+    "main",
+    "developer",
+    "prapty",
+    "sabbir",
+    "shipon"
+  ]
+}
