@@ -10,6 +10,7 @@ const Home = () => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
         corrupti!
       </p>
+      <p>Lorem, ipsum dolor.</p>
     </div>
   );
 };
