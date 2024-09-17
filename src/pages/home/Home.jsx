@@ -10,6 +10,9 @@ const Home = () => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
         corrupti!
       </p>
+      <p className="text-[#191970] text-4xl">
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum vero quia atque molestias iste quam odio! Soluta, aliquid? Hic laborum fugit alias sunt sequi ducimus itaque necessitatibus voluptatem natus dolor?
+      </p>
       <p>Lorem, ipsum dolor.</p>
     </div>
   );
