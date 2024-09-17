@@ -10,6 +10,9 @@ const Home = () => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
         corrupti!
       </p>
+      <p className="text-[#191970] text-4xl">
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum vero quia atque molestias iste quam odio! Soluta, aliquid? Hic laborum fugit alias sunt sequi ducimus itaque necessitatibus voluptatem natus dolor?
+      </p>
       <p>Lorem, ipsum dolor.</p>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum animi id aut esse ratione, illo placeat, debitis dolor quidem reprehenderit quae at ipsa accusamus aliquid soluta blanditiis ullam dolorem officiis.
       Nostrum corrupti eum dolor incidunt! Ipsam consequatur illum, neque corporis doloribus, iusto saepe exercitationem nihil aut mollitia, aperiam praesentium? Eius quod voluptas ipsa quasi, eaque aperiam laboriosam omnis. Atque, architecto.
@@ -31,6 +34,9 @@ const Home = () => {
       Voluptatem quod perferendis doloremque nihil, neque explicabo recusandae earum repudiandae cupiditate maxime harum. Quod, facere asperiores iure quis excepturi harum unde laboriosam impedit earum voluptatum itaque deleniti iste consectetur fugit?
       Sit labore fugiat facilis consequatur. Explicabo porro quos, velit saepe qui rem soluta aliquam est repellat blanditiis recusandae? Veritatis iste rem recusandae at quam iusto impedit et expedita delectus explicabo?
       Numquam itaque minus quam inventore quaerat repellendus perspiciatis nemo facilis eos ipsa ducimus sapiente, culpa quia mollitia ab assumenda voluptates nisi distinctio odit minima voluptatibus delectus illum? Numquam, vel consequuntur.</p>
+      <p>
+        lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, corrupti!
+      </p>
     </div>
   );
 };
