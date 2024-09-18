@@ -22,22 +22,24 @@ const SignUp = () => {
          <section className="">
   <div className="flex justify-center min-h-screen">
     <div
-      className="hidden bg-cover lg:block lg:w-[30%]"
+      className="hidden bg-cover lg:block lg:w-[28%]"
       style={{
         backgroundImage:
           "url('https://i.ibb.co/zx16q3j/password-lock-phone-screen.jpg')",
       }}
     ></div>
 
-    <div className="flex items-center w-full max-w-3xl p-8 mx-auto lg:px-12 lg:w-[70%]">
-      <div className="w-full">
-        <h1 className="text-2xl font-semibold tracking-wider  capitalize ">
+    <div className="flex items-center w-full max-w-3xl p-5 mx-auto lg:px-8 lg:w-[72%] ">
+        
+      <div className="w-full text">
+      <img className="w-auto h-20 mx-auto" src="https://i.ibb.co.com/WgPKBVY/Screenshot-2024-09-18-161854-removebg-preview.png" alt="" />
+        <h1 className="text-2xl font-semibold tracking-wider  capitalize  text-center">
           Get your free account now.
         </h1>
 
-        <p className="mt-4 ">
+        <p className="mt-4 text-justify">
           Let’s get you all set up so you can verify your personal account and
-          begin setting up your profile.
+          begin setting up your profile. 
         </p>
 
         <button
