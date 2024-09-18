@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 
 const PricingPlanCard = ({ name, price, features, paymentType }) => {
   return (
-    <div className="flex flex-col  border-2 rounded-lg p-5 hover:shadow-lg">
+    <div className="flex flex-col  border-2 rounded-lg p-5 hover:shadow-lg transform  delay-150">
       <div className="flex flex-col text-center pb-10">
         <h3 className="text-base font-semibold">{name}</h3>
         <p className=" text-3xl font-bold">

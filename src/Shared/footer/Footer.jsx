@@ -27,7 +27,7 @@ const Footer = () => (
       <div className="flex flex-col gap-12 w-full">
         <div className="flex items-start flex-col">
           <img
-            src="../../../public/logo/flowmate_logo.jpeg"
+            src="/logo/flowmate_logo.jpeg"
             alt="logo"
             className="w-28 h-28"
           />
