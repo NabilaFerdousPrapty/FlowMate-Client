@@ -5,12 +5,12 @@ import us from "../../assets/flag.png";
 const Footer = () => {
   return (
     <footer className="bg-white text-gray-800 hover:bg-white">
-      {/* Main Footer Section */}
+   
       <section className="max-w-screen-xl mx-auto px-4 py-12 md:flex md:justify-between md:space-x-8">
         {/* Logo and Brand Name */}
         <div className="mb-6 md:mb-0">
           <h1 className='text-4xl'>Flow<span className="text-blue-600">Mate</span></h1>
-          <p className="text-sm mt-1 text-gray-600">Worlds best Team Collaboration tool</p>
+          <p className="text-sm mt-1 text-gray-600">Worlds best Team Collaboration tool for work</p>
         </div>
 
     
