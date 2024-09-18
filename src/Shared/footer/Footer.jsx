@@ -13,18 +13,6 @@ const Footer = () => {
           <p className="text-sm mt-1 text-gray-600">Worlds best Team Collaboration tool for work</p>
         </div>
 
-
-const Footer = () => (
-  <Container>
-    <section className="flex items-center justify-start flex-col paddings w-full gap-20 bg-light-white">
-      <div className="flex flex-col gap-12 w-full">
-        <div className="flex items-start flex-col">
-          <img
-            src="/logo/flowmate_logo.jpeg"
-            alt="logo"
-            className="w-28 h-28"
-          />
-
     
         <div className="grid grid-cols-2 gap-8 sm:grid-cols-3">
 
