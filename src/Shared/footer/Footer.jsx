@@ -25,7 +25,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Explore EEVE Section */}
+    
           <div>
             <h3 className="mb-6 text-sm font-bold uppercase tracking-wider text-gray-700">Explore EEVE</h3>
             <ul className="space-y-4 text-gray-500">
