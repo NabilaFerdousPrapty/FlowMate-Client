@@ -4,6 +4,9 @@ import { FAQ } from "./../../components/FAQ";
 import Hero from "@/Shared/hero/Hero";
 import PricingPlans from "./../../components/PricingPlans";
 import Newsletters from "@/components/newsletters/Newsletters";
+import Testmonial from "@/components/Testmonial/Testmonial";
+
+
 
 const Home = () => {
   return (
@@ -12,9 +15,13 @@ const Home = () => {
 
       <Banner />
       <Features />
-       <Newsletters/>
+      <Newsletters />
+
       <PricingPlans />
+
+      <Testmonial />
       <FAQ />
+
     </div>
   );
 };
