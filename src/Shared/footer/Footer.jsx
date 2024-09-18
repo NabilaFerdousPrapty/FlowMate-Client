@@ -1,3 +1,4 @@
+
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import us from "../../assets/flag.png";
 
@@ -91,5 +92,8 @@ const Footer = () => {
     </footer>
   );
 };
+
+
+
 
 export default Footer;
