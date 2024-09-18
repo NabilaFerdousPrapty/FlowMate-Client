@@ -5,29 +5,18 @@ import us from "../../assets/flag.png";
 const Footer = () => {
   return (
     <footer className="bg-white text-gray-800 hover:bg-white">
-      {/* Main Footer Section */}
+   
       <section className="max-w-screen-xl mx-auto px-4 py-12 md:flex md:justify-between md:space-x-8">
         {/* Logo and Brand Name */}
         <div className="mb-6 md:mb-0">
           <h1 className='text-4xl'>Flow<span className="text-blue-600">Mate</span></h1>
-          <p className="text-sm mt-1 text-gray-600">Worlds best Team Collaboration tool</p>
+          <p className="text-sm mt-1 text-gray-600">Worlds best Team Collaboration tool for work</p>
         </div>
 
 
-const Footer = () => (
- 
-    <section className="flex items-center justify-start flex-col paddings w-full gap-20 bg-light-white">
-      <div className="flex flex-col gap-12 w-full">
-        <div className="flex items-start flex-col">
-          <img
-            src="/logo/flowmate_logo.jpeg"
-            alt="logo"
-            className="w-28 h-28"
-          />
-
     
         <div className="grid grid-cols-2 gap-8 sm:grid-cols-3">
-          {/* About Us Section */}
+
           <div>
             <h3 className="mb-6 text-sm font-bold uppercase tracking-wider text-gray-700">About Us</h3>
             <ul className="space-y-4 text-gray-500">
