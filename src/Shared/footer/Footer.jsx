@@ -1,87 +1,112 @@
-import PropTypes from "prop-types";
-import { footerLinks } from "../../constants";
-import { Link } from "react-router-dom";
-import Container from "../../components/Container";
 
-const FooterColumn = ({ title, links }) => (
-  <div className="flex-1 flex flex-col gap-3 text-sm min-w-max">
-    <h4 className="font-semibold">{title}</h4>
-    <ul className="flex flex-col gap-2 font-normal">
-      {links?.map((link, index) => (
-        <Link to="/" key={index}>
-          {link}
-        </Link>
-      ))}
-    </ul>
-  </div>
-);
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import us from "../../assets/flag.png";
 
-FooterColumn.propTypes = {
-  title: PropTypes.string.isRequired,
-  links: PropTypes.arrayOf(PropTypes.string).isRequired,
-};
+const Footer = () => {
+  return (
+    <footer className="bg-white text-gray-800 hover:bg-white">
+      {/* Main Footer Section */}
+      <section className="max-w-screen-xl mx-auto px-4 py-12 md:flex md:justify-between md:space-x-8">
+        {/* Logo and Brand Name */}
+        <div className="mb-6 md:mb-0">
+          <h1 className='text-4xl'>Flow<span className="text-blue-600">Mate</span></h1>
+          <p className="text-sm mt-1 text-gray-600">Worlds best Team Collaboration tool</p>
+        </div>
+
 
 const Footer = () => (
-  <Container>
+ 
     <section className="flex items-center justify-start flex-col paddings w-full gap-20 bg-light-white">
       <div className="flex flex-col gap-12 w-full">
         <div className="flex items-start flex-col">
           <img
-            src="../../../public/logo/flowmate_logo.jpeg"
+            src="/logo/flowmate_logo.jpeg"
             alt="logo"
             className="w-28 h-28"
           />
 
-          <p className="text-start text-sm font-normal mt-5 max-w-xs">
-            FlowMate is an all-in-one project management tool for creatives and
-            developers to manage their projects from start to finish.
-          </p>
-        </div>
-        <div className="flex flex-wrap gap-12">
-          <FooterColumn
-            title={footerLinks[0].title}
-            links={footerLinks[0].links}
-          />
-
-          <div className="flex-1 flex flex-col gap-4">
-            <FooterColumn
-              title={footerLinks[1].title}
-              links={footerLinks[1].links}
-            />
-            <FooterColumn
-              title={footerLinks[2].title}
-              links={footerLinks[2].links}
-            />
+    
+        <div className="grid grid-cols-2 gap-8 sm:grid-cols-3">
+          {/* About Us Section */}
+          <div>
+            <h3 className="mb-6 text-sm font-bold uppercase tracking-wider text-gray-700">About Us</h3>
+            <ul className="space-y-4 text-gray-500">
+              <li><a href="#" className="hover:underline">Master Plan</a></li>
+              <li><a href="#" className="hover:underline">Jobs</a></li>
+              <li><a href="#" className="hover:underline">Blog</a></li>
+              <li><a href="#" className="hover:underline">Contact</a></li>
+            </ul>
           </div>
 
-          <FooterColumn
-            title={footerLinks[3].title}
-            links={footerLinks[3].links}
-          />
-
-          <div className="flex-1 flex flex-col gap-4">
-            <FooterColumn
-              title={footerLinks[4].title}
-              links={footerLinks[4].links}
-            />
-            <FooterColumn
-              title={footerLinks[5].title}
-              links={footerLinks[5].links}
-            />
+    
+          <div>
+            <h3 className="mb-6 text-sm font-bold uppercase tracking-wider text-gray-700">Explore EEVE</h3>
+            <ul className="space-y-4 text-gray-500">
+              <li><a href="#" className="hover:underline">Unlock my Robot Power</a></li>
+              <li><a href="#" className="hover:underline">Starlight</a></li>
+              <li><a href="#" className="hover:underline">Robot Platform</a></li>
+              <li><a href="#" className="hover:underline">EEVE Roadmap</a></li>
+            </ul>
           </div>
 
-          <FooterColumn
-            title={footerLinks[6].title}
-            links={footerLinks[6].links}
-          />
+          {/* Community & Support Section */}
+          <div>
+            <h3 className="mb-6 text-sm font-bold uppercase tracking-wider text-gray-700">Community & Support</h3>
+            <ul className="space-y-4 text-gray-500">
+              <li><a href="#" className="hover:underline">Willow X Community</a></li>
+              <li><a href="#" className="hover:underline">Developer & Maker Access</a></li>
+              <li><a href="#" className="hover:underline">Special Cases</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </section>
 
-      <div className="flex justify-between items-center max-sm:flex-col w-full text-sm font-normal ">
-        <p className="py-4">@ 2023 FlowMate. All rights reserved</p>
-      </div>
-    </section>
-  </Container>
-);
+      {/* Social Media and Footer Links */}
+      <section className="bg-white text-gray-800 rounded-lg shadow m-4">
+        <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+          <div className="flex flex-col md:flex-row justify-between space-y-4 md:space-y-0 md:space-x-4">
+            {/* Social Media Icons */}
+            <div className="flex justify-center md:justify-start">
+              <ul className="flex gap-4">
+                <li><a href="#" className="hover:text-gray-500"><FaFacebook size={20} /></a></li>
+                <li><a href="#" className="hover:text-gray-500"><FaInstagram size={20} /></a></li>
+                <li><a href="#" className="hover:text-gray-500"><FaTwitter size={20} /></a></li>
+                <li><a href="#" className="hover:text-gray-500"><FaLinkedin size={20} /></a></li>
+              </ul>
+            </div>
+
+            {/* Footer Links */}
+            <div className="flex justify-center md:justify-center">
+              <ul className="flex space-x-12 text-sm text-gray-500">
+                <li><a href="#" className="hover:underline">March22 Recap</a></li>
+                <li><a href="#" className="hover:underline">Privacy</a></li>
+                <li><a href="#" className="hover:underline">General</a></li>
+                <li><a href="#" className="hover:underline">Contact</a></li>
+              </ul>
+            </div>
+
+            {/* Country Selector */}
+            <div className="flex justify-center md:justify-end items-center gap-2">
+              <img src={us} alt="United States Flag" className="w-5 h-5" />
+              <span className='text-gray-500'>United States (English)</span>
+            </div>
+          </div>
+
+          {/* Divider */}
+          <hr className="my-6 border-gray-300 sm:mx-auto lg:my-8" />
+
+          {/* Footer Bottom Text */}
+          <span className="block text-sm text-gray-500 sm:text-center">
+            FlowMate <a href="#" className="hover:underline">© 2024</a>. All Rights Reserved.
+          </span>
+        </div>
+      </section>
+    </footer>
+  
+  );
+};
+
+
+
 
 export default Footer;

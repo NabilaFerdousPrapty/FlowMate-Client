@@ -60,7 +60,7 @@ const Hero = () => {
                 Home
               </NavLink>
               <NavLink className="text-gray-700 transition-colors duration-300 transform lg:mx-8 dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500" to="/components">
-                Components
+                About us
               </NavLink>
               <NavLink className="text-gray-700 transition-colors duration-300 transform lg:mx-8 dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500" to="/pricing">
                 Pricing

@@ -7,6 +7,7 @@ import DashBoard from "../layout/DashBoard";
 import Login from "@/pages/login/Login";
 import SignUp from "@/pages/signup/SignUp";
 
+
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -20,6 +21,8 @@ export const router = createBrowserRouter([
 
     ]
   },
+ 
+
 
   // here set dashboard
   {
