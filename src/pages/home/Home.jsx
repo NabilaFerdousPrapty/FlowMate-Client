@@ -1,3 +1,4 @@
+import Contact from "@/components/contact/Contact";
 import Banner from "../../components/banner/Banner";
 
 const Home = () => {
@@ -7,7 +8,7 @@ const Home = () => {
       <Banner />
 
       <h2>here is home</h2>
-    <p>Here adding contact section</p>
+     <Contact></Contact>
     </div>
   );
 };
