@@ -27,6 +27,9 @@ const Banner = () => {
             Show Toast
           </Button>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio atque, fugit nisi nemo vitae debitis? Alias recusandae beatae dolorum eius explicabo laboriosam porro repellat accusamus perferendis, amet id pariatur magnam nulla? Aperiam adipisci minima aliquam a, nesciunt architecto aut.</p>
+
+          <h3>hello</h3>
+          <p>ge4lo</p>
         </div>
       </div>
     </div>
