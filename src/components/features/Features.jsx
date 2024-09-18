@@ -30,7 +30,7 @@ const Features = () => {
                 </div>
             </div>
 
-          	{/* Feature 2 */}
+          {/* section 2 */}
 		<div className="flex flex-col overflow-hidden rounded-md shadow-md lg:flex-row-reverse hover:shadow-lg transition-shadow duration-300 cursor-pointer">
 			<img src={team} alt="Remote Work" className="h-80 dark:bg-gray-500 aspect-video" />
 			<div className="flex flex-col justify-center flex-1 p-6 dark:bg-gray-50">
