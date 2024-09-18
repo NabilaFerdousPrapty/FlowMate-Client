@@ -5,6 +5,7 @@ import ErrorPage from "../pages/errorPage/ErrorPage";
 import Home from "../pages/home/Home";
 import DashBoard from "../layout/DashBoard";
 
+
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -18,6 +19,8 @@ export const router = createBrowserRouter([
 
     ]
   },
+ 
+
 
   // here set dashboard
   {

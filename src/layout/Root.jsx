@@ -1,10 +1,12 @@
 import { Outlet } from "react-router-dom";
+import Footer from "../Shared/footer/Footer";
 
 
 const Root = () => {
   return (
-    <div>
+    <div className="h-screen">
       <Outlet />
+      <Footer/>
     </div>
   );
 };
