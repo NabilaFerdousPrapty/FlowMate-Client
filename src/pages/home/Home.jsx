@@ -1,19 +1,14 @@
-
-import Hero from "@/Shared/hero/Hero";
-
-
 import Features from "@/components/features/Features";
-
-import PricingPlans from "@/components/PricingPlans";
-
-
 import Banner from "../../components/banner/Banner";
-import { FAQ } from "@/components/FAQ";
+import { FAQ } from './../../components/FAQ';
+import Hero from "@/Shared/hero/Hero";
+import PricingPlans from './../../components/PricingPlans';
+
 
 const Home = () => {
   return (
     <div>
-< 
+
        <Hero/>
 
 
