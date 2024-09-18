@@ -15,7 +15,7 @@ const Footer = () => {
 
     
         <div className="grid grid-cols-2 gap-8 sm:grid-cols-3">
-          {/* About Us Section */}
+
           <div>
             <h3 className="mb-6 text-sm font-bold uppercase tracking-wider text-gray-700">About Us</h3>
             <ul className="space-y-4 text-gray-500">
