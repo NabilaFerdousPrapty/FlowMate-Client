@@ -1,13 +1,6 @@
-<<<<<<< HEAD
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
-=======
 /* @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities'; */
-
-
 
 @tailwind base;
 @tailwind components;
@@ -69,4 +62,3 @@
     --chart-5: 340 75% 55%;
   }
 }
->>>>>>> main
