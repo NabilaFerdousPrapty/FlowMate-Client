@@ -4,6 +4,9 @@ import Root from "../layout/Root";
 import ErrorPage from "../pages/errorPage/ErrorPage";
 import Home from "../pages/home/Home";
 import DashBoard from "../layout/DashBoard";
+import Login from "@/pages/login/Login";
+import SignUp from "@/pages/signup/SignUp";
+
 
 export const router = createBrowserRouter([
   {
@@ -18,6 +21,8 @@ export const router = createBrowserRouter([
 
     ]
   },
+ 
+
 
   // here set dashboard
   {
@@ -33,6 +38,13 @@ export const router = createBrowserRouter([
       },
 
     ]
+  },{
+    path: "/login",
+    element:<Login/>
+
+  },{
+    path: "/signUp",
+    element:<SignUp/>
   }
 
 ]);
