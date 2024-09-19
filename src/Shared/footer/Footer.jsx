@@ -13,6 +13,7 @@ const Footer = () => {
           <p className="text-sm mt-1 text-gray-600">Worlds best Team Collaboration tool for work</p>
         </div>
 
+
     
         <div className="grid grid-cols-2 gap-8 sm:grid-cols-3">
 
@@ -90,6 +91,7 @@ const Footer = () => {
         </div>
       </section>
     </footer>
+  
   );
 };
 
