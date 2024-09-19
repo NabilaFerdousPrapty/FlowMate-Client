@@ -68,7 +68,7 @@ const Contact = () => {
                 <span className="mr-2">
                   <FaLocationDot />
                 </span>
-                <span className="material-icons">location_on</span>
+                <span className="material-icons">Location_on</span>
               </div>
               <p>123 Main Street, Anytown, USA</p>
             </li>
@@ -77,7 +77,7 @@ const Contact = () => {
                 <span className="mr-2">
                   <FaPhoneAlt />
                 </span>
-                <span className="material-icons">phone</span>
+                <span className="material-icons">Phone</span>
               </div>
               <p>+1 555-555-5555</p>
             </li>
@@ -86,7 +86,7 @@ const Contact = () => {
                 <span className="mr-2">
                   <IoMdMail />
                 </span>
-                <span className="material-icons">email</span>
+                <span className="material-icons">Email</span>
               </div>
               <p>info@example.com</p>
             </li>
