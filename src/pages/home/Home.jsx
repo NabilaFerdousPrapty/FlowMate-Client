@@ -9,7 +9,6 @@ import Testmonial from "@/components/Testmonial/Testmonial";
 
 
 
-import Banner from "@/components/banner/Banner";
 
 
 const Home = () => {
