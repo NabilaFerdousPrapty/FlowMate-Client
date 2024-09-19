@@ -4,7 +4,8 @@ import { FAQ } from "./../../components/FAQ";
 import Hero from "@/Shared/hero/Hero";
 import PricingPlans from "./../../components/PricingPlans";
 import Newsletters from "@/components/newsletters/Newsletters";
-import AboutScruw from "@/components/aboutscruw/AboutScruw";
+import AboutScrum from "@/components/aboutscruw/Aboutscrum";
+import FlowMateService from "@/components/flowMateService/flowMateService";
 
 const Home = () => {
   return (
@@ -15,7 +16,8 @@ const Home = () => {
       <Features />
        <Newsletters/>
       <PricingPlans />
-      <AboutScruw/>
+      <FlowMateService/>
+      <AboutScrum/>
       <FAQ />
     </div>
   );

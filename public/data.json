@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Extra Large Scale Features",
+        "description": "Designed for enterprise-level teams and large-scale operations.",
+        "cards": [
+            {
+                "size": "extra-large",
+                "title": "Enterprise-Level Security",
+                "image": "https://www.shutterstock.com/image-photo/handshake-two-businesswomen-who-enters-600nw-1886772589.jpg",
+                "description": "FlowMate ensures enterprise-grade encryption and compliance across all your projects."
+            },
+            {
+                "size": "extra-large",
+                "title": "Unlimited File Sharing",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK-ygkwQNB2IyFgcZbjAtq-G4rV42VrFRqUQ&s",
+                "description": "With no file size restrictions, you can share any type of file within your teams securely."
+            }
+        ]
+    },
+    {
+        "title": "Large Scale Features",
+        "description": "Discover how FlowMate helps large teams collaborate effectively.",
+        "cards": [
+            {
+                "size": "large",
+                "title": "Work Together in Real-Time",
+                "image": "https://www.proofhub.com/articles/wp-content/uploads/2023/08/Real-time-Collaboration.jpg",
+                "description": "Collaborate with your team instantly with real-time updates, file sharing, and project management tools."
+            },
+            {
+                "size": "large",
+                "title": "Visualize Your Workflow",
+                "image": "https://miro.medium.com/v2/resize:fit:626/0*ZrifMxmuvLuJSmZr.jpg",
+                "description": "Visualize your projects with Gantt charts and timelines, ensuring everyone stays on track."
+            }
+        ]
+    },
+    {
+        "title": "Medium Scale Features",
+        "description": "For teams that want flexibility and efficiency.",
+        "cards": [
+            {
+                "size": "medium",
+                "title": "Keep Projects on Track",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3cd9OKi3pf-0iUt_aIPWxKtjCe-5bnvI27Q&s",
+                "description": "Manage tasks efficiently with intuitive task management features."
+            },
+            {
+                "size": "medium",
+                "title": "Boost Team Morale",
+                "image": "https://blogimage.vantagecircle.com/content/images/2023/02/Employee-Morale.png",
+                "description": "Engage your team with feedback systems and performance tracking."
+            }
+        ]
+    }
+]
