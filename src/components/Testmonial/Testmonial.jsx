@@ -82,7 +82,7 @@ const Testmonial = () => {
                 />
                 <div className="mx-2">
                   <h1 className="font-semibold">Ariful Shawon</h1>
-                  <span className="text-sm">Backend Developer</span>
+                  <span className="text-sm">Backend developer</span>
                 </div>
               </div>
             </div>
