@@ -107,7 +107,7 @@ const Testmonial = () => {
 
             <div className="p-8 border rounded-lg hover:bg-blue-500 hover:text-white transition-all duration-300 ease-in-out animate-fadeIn">
               <p className="leading-loose">
-                "Frontend development is easier when working with such an amazing team! and it's a designing part "
+                "Frontend development is easier when working with such an amazing team! "
               </p>
 
               <div className="flex items-center mt-8 -mx-2">
