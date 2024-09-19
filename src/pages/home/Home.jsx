@@ -4,6 +4,7 @@ import { FAQ } from "./../../components/FAQ";
 import Hero from "@/Shared/hero/Hero";
 import PricingPlans from "./../../components/PricingPlans";
 import Newsletters from "@/components/newsletters/Newsletters";
+import AboutScruw from "@/components/aboutscruw/AboutScruw";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Features />
        <Newsletters/>
       <PricingPlans />
+      <AboutScruw/>
       <FAQ />
     </div>
   );
