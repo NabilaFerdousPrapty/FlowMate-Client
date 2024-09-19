@@ -28,7 +28,6 @@ const Home = () => {
       <FAQ />
 
 
-      <Banner />
 
     </div>
   );
