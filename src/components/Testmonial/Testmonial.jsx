@@ -82,7 +82,7 @@ const Testmonial = () => {
                 />
                 <div className="mx-2">
                   <h1 className="font-semibold">Ariful Shawon</h1>
-                  <span className="text-sm">Backend Developer</span>
+                  <span className="text-sm">Backend developer</span>
                 </div>
               </div>
             </div>
@@ -107,7 +107,7 @@ const Testmonial = () => {
 
             <div className="p-8 border rounded-lg hover:bg-blue-500 hover:text-white transition-all duration-300 ease-in-out animate-fadeIn">
               <p className="leading-loose">
-                "Frontend development is easier when working with such an amazing team!"
+                "Frontend development is easier when working with such an amazing team! "
               </p>
 
               <div className="flex items-center mt-8 -mx-2">
